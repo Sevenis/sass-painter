@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  margin: 0 auto;
+}
+
+header .upper-head-navbar {
+  width: 90%;
+  height: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header .upper-head-navbar .fas {
+  color: #009cff;
+}
+
+header .upper-head-navbar p {
+  margin: 0 10px;
+}
+
+header .bottom-head-navbar {
+  height: 50px;
+  background-color: black;
+}
+
