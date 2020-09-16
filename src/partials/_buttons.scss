@@ -1,0 +1,9 @@
+.btn {
+    @include btn;
+    background-color: tomato;
+}
+
+.btn-blu {
+    @include btn;
+    background-color: lightblue;
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: $colorBgHeader;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header .upper-head-navbar {
+    background-color: red;
+    width: 90%;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+header .upper-head-navbar .fas {
+    color: #009cff;
+}
+
+header .upper-head-navbar select {
+    margin-left: 10px;
+}
+
+header .upper-head-navbar p {
+    margin: 0 10px;
+}
+
+header .bottom-head-navbar {
+    height: 50px;
+    // background-color: $colorBgHeader;
+    background-color: green;
+    width: 90%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin: 0 auto;
+}
+
+header .bottom-head-navbar img {
+    height: 20px;
+    padding-right: 20px;
+}
+
+
+
+header ul li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 12px;
+
+}
+
+// SEZIONE JUMBOTRON
+.jumbotron {
+    height: 460px;
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+    background-position: center;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+
+    .jumbo-sx {
+        width: 600px;
+        flex-direction: row;
+
+        .container {
+            display: flex;
+            color: white;
+            flex-direction: column;
+            padding: 40px;
+        }
+
+        h2 {
+            font-size: 30px;
+            padding: 20px 0;
+        }
+
+        h3 {
+            font-size: 20px;
+            padding: 15px 0;
+        }
+
+        li {
+            padding: 10px 5px;
+            list-style-type: none;
+        }
+
+        .button {
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            font-size: 12px;
+
+            padding: 10px;
+            background-color: grey;
+
+            .btn-sx {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .btn-dx {
+                font-size: 25px;
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+
+                .linea {
+                    height: 30px;
+                    border-left: 1px solid white;
+                    margin: 0 10px;
+                }
+            }
+        }
+
+    }
+
+    .jumbo-dx {
+        height: 400px;
+        width: 400px;
+        background-color: green;
+        display: flex;
+        align-self:center;
+        margin-right: 50px;
+
+
+    }
+
+}

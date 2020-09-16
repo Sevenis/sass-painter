@@ -1,0 +1,14 @@
+@mixin floatContainer {
+    float: left;
+    height: 100%;
+}
+
+@mixin clearFix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+@mixin btn {
+    padding: 10px 20px;
+}
